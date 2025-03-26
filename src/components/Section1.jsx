@@ -201,7 +201,7 @@ export default function Section1() {
   return (
     <div className='overflow-x-hidden'>
       <div className=" fixed z-[-1] top-0 left-0 w-full h-[100vh] ">
-        <video className='w-full h-full object-cover' src="/videos/hero_card_vid_2.MP4" loop autoPlay muted playsInline ></video>
+        <video className='w-full h-full object-cover' src="https://diamond2.com/videos/hero_video.mp4" loop autoPlay muted playsInline ></video>
       </div>
       <div className="w-full h-[80vh]">
       <div className="w-full   uppercase spectral-extralight h-[80vh]  text-white py-20 md:py-0   flex flex-col  justify-end items-end md:px-[20vw] lg:px-[23vw] ">
