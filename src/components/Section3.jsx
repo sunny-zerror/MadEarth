@@ -51,21 +51,7 @@ export default function Section3() {
           },
         }
       );
-      gsap.to("#trigger_parent3",
-        {
-          scrollTrigger: {
-            trigger: "#after3",
-            start: "top bottom",
-            end: "top top",
-            invalidateOnRefresh: true,
-            scrub: true,
-            // markers: true,
-            onUpdate: (self) => {
-              setMeshScale(1 - 0.2 * self.progress);
-            },
-          },
-        }
-      );
+     
 
       var tl = gsap.timeline(
         {
@@ -81,17 +67,7 @@ export default function Section3() {
       )
         .fromTo("#trigger_parent3", { scale: 0.85 }, { scale: 1, ease: "power2.out" }, "-=0.5")
 
-      gsap.fromTo("#trigger_parent3", { scale: 1 }, {
-        scrollTrigger: {
-          trigger: "#after3",
-          start: "top bottom",
-          end: "top top",
-          invalidateOnRefresh: true,
-          scrub: true,
-          // markers: true,
-        },
-        scale: .85
-      })
+      
     });
   }, []);
 
