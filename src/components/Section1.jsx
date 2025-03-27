@@ -198,6 +198,7 @@ export default function Section1() {
       })
     }, []);
 
+
   return (
     <div className='overflow-x-hidden'>
       <div className=" fixed z-[-1] top-0 left-0 w-full h-[100vh] ">
